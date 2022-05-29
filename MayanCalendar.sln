@@ -5,10 +5,12 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MayanCalendar", "MayanCalendar\MayanCalendar.csproj", "{4863F0E9-4131-485D-AEB3-014E5EDE193F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPKSoft.MayanCalendar", "VPKSoft.MayanCalendar\VPKSoft.MayanCalendar.csproj", "{1236026E-098C-45C7-9A3C-13286D56BF09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VPKSoft.MayanCalendar", "VPKSoft.MayanCalendar\VPKSoft.MayanCalendar.csproj", "{1236026E-098C-45C7-9A3C-13286D56BF09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C45CB3D8-EB68-4D45-8C0F-B72B17417B66}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet-desktop.yml = .github\workflows\dotnet-desktop.yml
+		.github\workflows\dotnet-nuget.yml = .github\workflows\dotnet-nuget.yml
 		MayanCalendar.sln.licenseheader = MayanCalendar.sln.licenseheader
 	EndProjectSection
 EndProject
