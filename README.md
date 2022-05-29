@@ -1,7 +1,7 @@
 # MayanCalendar
 A library to convert Mayan calendar dates.
 
-[![Nuget](https://img.shields.io/nuget/v/VPKSoft.MayanCalendar)](https://www.nuget.org/packages/VPKSoft.MayanCalendar) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/VPKSoft/MayanCalendar/.NET%20Core%20Desktop?label=.NET%20Core%20Desktop)](https://github.com/VPKSoft/MayanCalendar/actions/workflows/dotnet-desktop.yml) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/VPKSoft/MayanCalendar/.NET%20Core%20NuGet%20publish?label=.NET%20Core%20NuGet%20publish)](https://github.com/VPKSoft/FlagsISO/actions/workflows/release_tag.yml)
+[![Nuget](https://img.shields.io/nuget/v/VPKSoft.MayanCalendar)](https://www.nuget.org/packages/VPKSoft.MayanCalendar) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/VPKSoft/MayanCalendar/.NET%20Core%20Desktop?label=.NET%20Core%20Desktop)](https://github.com/VPKSoft/MayanCalendar/actions/workflows/dotnet-desktop.yml) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/VPKSoft/MayanCalendar/.NET%20Core%20NuGet%20publish?label=.NET%20Core%20NuGet%20publish)](https://github.com/VPKSoft/MayanCalendar/actions/workflows/dotnet-nuget.yml)
 
 ## Features
 * Can convert dates from Mayan to Gregorian
