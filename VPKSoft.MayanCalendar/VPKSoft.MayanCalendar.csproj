@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<AssemblyTitle>VPKSoft.MayanCalendar</AssemblyTitle>
+		<Company>VPKSoft</Company>
+		<Product>VPKSoft.MayanCalendar</Product>
+		<Description>A library for Mayan/Gregorian calendar conversions</Description>
+		<Copyright>Copyright © VPKSoft 2022</Copyright>
+		<Version>1.0.1.0</Version>
+		<DocumentationFile>bin\$(Configuration)\VPKSoft.MayanCalendar.xml</DocumentationFile>
+		<OutputPath>bin\$(Configuration)\</OutputPath>
+		<Authors>VPKSoft</Authors>
+		<PackageIconUrl>https://www.vpksoft.net/site/VPKSoft.ico</PackageIconUrl>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<PackageTags>Mayan Calendar VPKSoft date conversion</PackageTags>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugType>full</DebugType>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+	</PropertyGroup>
+	<PropertyGroup>
+		<ApplicationIcon>icon.ico</ApplicationIcon>
+		<LangVersion>latest</LangVersion>
+		<PackageIcon>maya_imix.png</PackageIcon>
+		<PackageProjectUrl>https://www.vpksoft.net/2016/04/10/vpksoft-mayancalendar/</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/VPKSoft/MayanCalendar</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="icon.ico" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="..\maya_imix.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+		</Project>
