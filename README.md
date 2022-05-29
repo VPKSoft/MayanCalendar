@@ -1,7 +1,7 @@
 # MayanCalendar
 A library to convert Mayan calendar dates.
 
-[![Nuget](https://img.shields.io/nuget/v/VPKSoft.MayanCalendar)](https://img.shields.io/nuget/v/VPKSoft.MayanCalendar)
+[![Nuget](https://img.shields.io/nuget/v/VPKSoft.MayanCalendar)](https://www.nuget.org/packages/VPKSoft.MayanCalendar)
 
 ## Features
 * Can convert dates from Mayan to Gregorian
