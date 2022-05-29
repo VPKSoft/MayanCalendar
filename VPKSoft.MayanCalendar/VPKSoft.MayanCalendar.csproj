@@ -30,6 +30,7 @@
 		<RepositoryUrl>https://github.com/VPKSoft/MayanCalendar</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 	<ItemGroup>
 		<Content Include="icon.ico" />
